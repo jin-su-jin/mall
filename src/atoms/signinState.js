@@ -9,6 +9,7 @@ const initState = {
     refreshToken:''
 }
 
+
 const loadMemberCookie = ()=>{
     const memberInfo = getCookie("member");
     if(memberInfo && memberInfo.nickname){
